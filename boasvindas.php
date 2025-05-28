@@ -17,35 +17,25 @@
 <div class="container mt-5">
     <div class=" login row   justify-content-center">
         <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <form action="response.php" method="POST">
             <div class="card">
                 <div class="card-header bg-info d-flex justify-content-center">
                     <h5></h5>
-
 </div>
                     <div class="card-body">
                         <h4> Menu de Login </h4>
-
-                    <form action="" method="POST">
                 <label>Digite seu nome: </label><br>
         
                     <input type="text" name="nome" class="form-control" id="nome"></input>
                     <label> Digita sua senha: </label>
                     <input type="password" name="senha" class="form-control" id="senha"></input>
-
-                 
                     <input type="submit" class="btn btn-outline-primary" method="POST"></input>
-                    
                     <br>
-                        
             </form>
                     </div>
                         <div class="card-footer bg-info">
-
-                        
                     </div>
-                
             </div>
-           
         </div>         
     </div>
 </div>
