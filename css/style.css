@@ -1,7 +1,7 @@
 body{
     margin : 0 0;
     padding : 0 0;
-    background: url('../jungkook-bts-foto-big-hit-music-hybe.jpg');
+    background: url('../img/imgfundo.jpg');
     background-position:center ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,6 +13,6 @@ body{
 
 
 .login {
-    height: 100vh;
+    height: 80vh;
     align-items: center;
 }

@@ -18,7 +18,9 @@
     <div class=" login row   justify-content-center">
         <div class="col-12 col-sm-6 col-md-6 col-lg-6">
             <div class="card">
-                <div class="card-header bg-info">
+                <div class="card-header bg-info d-flex justify-content-center">
+                    <h5></h5>
+
 </div>
                     <div class="card-body">
                         <h4> Menu de Login </h4>
@@ -30,9 +32,9 @@
                     <label> Digita sua senha: </label>
                     <input type="password" name="senha" class="form-control" id="senha"></input>
 
-                    <div class="col-12 col-sm-6 col-md-6 col-lg-6"> 
+                 
                     <input type="submit" class="btn btn-outline-primary" method="POST"></input>
-                    </div>
+                    
                     <br>
                         
             </form>
