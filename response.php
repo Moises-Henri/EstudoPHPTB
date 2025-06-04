@@ -4,7 +4,7 @@ if($_POST['nome'] == "admin" && $_POST['senha'] == "senha"){
     session_start();
     $_SESSION['nome'] = $_POST['nome'];
 } else {
-   echo "<script>alert('Login não foi efetuado com sucesso.') </script>";
+   header('location: boasvindas.php?return = opa, deu merda!!!');
 }
 
 ?>
