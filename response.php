@@ -20,6 +20,7 @@ if($_POST['nome'] == "admin" && $_POST['senha'] == "senha"){
 </head>
 <body>
     <div class="container mt-5">
+        <form method="POST" action="dash.php">
         <div class="row justify-content-center">
             <div class="col-12 col-sm-8 col-md-6">
                 <div class="alert alert-info">
@@ -34,6 +35,7 @@ if($_POST['nome'] == "admin" && $_POST['senha'] == "senha"){
                 </div>
             </div>
         </div>
+</form>
     </div>
     
 </body>

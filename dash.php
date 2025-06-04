@@ -1,3 +1,8 @@
+<?php
+ session_start(); 
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -15,8 +20,14 @@
     <div class="row justify-content-center">
         <div class="col-12 col-sm-8 col-md-6">
             <div class="alert alert-info">
-                <h4 class="text-center">
-                    Dashboard do sistema
+                <h4 class="text-center">                    
+                    Dashboard do sistema 
+                    <?php
+ echo  "<br> Seja bem vindo ao sistema ". $_SESSION['nome'];
+
+ ?>
+
+
                 </h4>
             </div>
         </div>
