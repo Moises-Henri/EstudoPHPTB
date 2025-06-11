@@ -1,5 +1,8 @@
 <?php
- session_start(); 
+session_start();
+ if(!isset($_SESSION['nome'])){
+    header('location: boasvindas.php?return = opa, deu merda!!!');
+} 
 ?>
 
 
@@ -29,6 +32,9 @@
 
 
                 </h4>
+                
+                <a href="response.php" class="btn btn-outline-info btn-block mt-4 mb-4">Voltar</a>
+                <a href="logout.php" class="btn btn-outline-info btn-block mt-4 mb-4">Sair do sistema!</a>
             </div>
         </div>
     </div>

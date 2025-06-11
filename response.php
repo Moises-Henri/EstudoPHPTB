@@ -1,12 +1,16 @@
 <?php
+ session_start();
 
+if(!isset($_SESSION['nome'])){
+    
 if($_POST['nome'] == "admin" && $_POST['senha'] == "senha"){
-    session_start();
+   
     $_SESSION['nome'] = $_POST['nome'];
 } else {
    header('location: boasvindas.php?return = opa, deu merda!!!');
 }
 
+}
 ?>
 
 <!DOCTYPE html>
@@ -30,8 +34,8 @@ if($_POST['nome'] == "admin" && $_POST['senha'] == "senha"){
 
                         ?>
                     </h3>
-                    <button class="btn btn-outline-info btn-block mt-4 mb-4">Acessar!</button>
-                    
+                    <a href="dash.php" class="btn btn-outline-info btn-block mt-4 mb-4">Acessar!</a>
+                    <a href="logout.php" class="btn btn-outline-info btn-block mt-4 mb-4">Sair do sistema!</a>
                 </div>
             </div>
         </div>
